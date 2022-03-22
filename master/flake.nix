@@ -9,7 +9,7 @@
   
   inputs.src-woocommerce-api-nim-master.flake = false;
   inputs.src-woocommerce-api-nim-master.owner = "mrhdias";
-  inputs.src-woocommerce-api-nim-master.ref   = "refs/heads/master";
+  inputs.src-woocommerce-api-nim-master.ref   = "master";
   inputs.src-woocommerce-api-nim-master.repo  = "woocommerce-api-nim";
   inputs.src-woocommerce-api-nim-master.type  = "github";
   
