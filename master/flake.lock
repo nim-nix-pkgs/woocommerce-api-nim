@@ -1,0 +1,62 @@
+{
+  "nodes": {
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647920574,
+        "narHash": "sha256-D3ob5QykELhyNcTnISOkjEzLlgXltwON8Ucrz5cpiQI=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "bfb46a1f762002f07f9d81d93dacd544c6890623",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-+8mazL4KLh6VltXYJc5+QFA5Q1i+Uh/TadRl9/+qcx8=",
+        "path": "/nix/store/gddrvlqs5qf1bp3kc80gp3qg5vm8kj76-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs",
+        "src-woocommerce-api-nim-master": "src-woocommerce-api-nim-master"
+      }
+    },
+    "src-woocommerce-api-nim-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1580397510,
+        "narHash": "sha256-S4c9z1pu6hcsHhX3Gl5XG7z99/fO70pGSZSdqKzka34=",
+        "owner": "mrhdias",
+        "repo": "woocommerce-api-nim",
+        "rev": "e5fb8821e73a0b0f372b6f9a71da9bece69516e7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mrhdias",
+        "ref": "refs/heads/master",
+        "repo": "woocommerce-api-nim",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
