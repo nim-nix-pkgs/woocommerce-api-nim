@@ -36,10 +36,10 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-woocommerce-api-nim-master": "src-woocommerce-api-nim-master"
+        "src-woocommerce-master": "src-woocommerce-master"
       }
     },
-    "src-woocommerce-api-nim-master": {
+    "src-woocommerce-master": {
       "flake": false,
       "locked": {
         "lastModified": 1580397510,
