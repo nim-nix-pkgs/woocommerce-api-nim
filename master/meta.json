@@ -1,8 +1,0 @@
-{
-  "desc": "A Nim wrapper for the WooCommerce REST API",
-  "license": "MIT",
-  "name": "woocommerce-api-nim",
-  "ref": "refs/heads/master",
-  "url": "https://github.com/mrhdias/woocommerce-api-nim",
-  "version": "master"
-}
