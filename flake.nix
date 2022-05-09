@@ -7,14 +7,6 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
-  inputs."woocommerce-master".dir   = "master";
-  inputs."woocommerce-master".owner = "nim-nix-pkgs";
-  inputs."woocommerce-master".ref   = "master";
-  inputs."woocommerce-master".repo  = "woocommerce";
-  inputs."woocommerce-master".type  = "github";
-  inputs."woocommerce-master".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."woocommerce-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
-  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
